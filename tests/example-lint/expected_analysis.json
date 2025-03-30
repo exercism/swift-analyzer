@@ -1,0 +1,76 @@
+{
+  "comments" : [
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "13",
+        "line" : "4",
+        "message" : "replace use of '.forEach { ... }' with for-in loop"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "11",
+        "line" : "1",
+        "message" : "remove 1 space"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "24",
+        "line" : "1",
+        "message" : "remove 1 space"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "34",
+        "line" : "1",
+        "message" : "remove line break"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "1",
+        "line" : "3",
+        "message" : "remove trailing whitespace"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "1",
+        "line" : "4",
+        "message" : "unindent by 2 spaces"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "1",
+        "line" : "6",
+        "message" : "unindent by 2 spaces"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift-linter",
+      "params" : {
+        "column" : "2",
+        "line" : "7",
+        "message" : "add 1 line break"
+      },
+      "type" : "actionable"
+    }
+  ]
+}

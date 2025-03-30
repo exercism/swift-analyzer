@@ -1,0 +1,18 @@
+{
+  "comments" : [
+    {
+      "params" : {
+        "message" : "replace use of '.forEach { ... }' with for-in loop"
+      },
+      "type" : "actionable",
+      "comment" : "swift-linter"
+    },
+    {
+      "params" : {
+        "message" : "rename the constant 'Linter' using lowerCamelCase"
+      },
+      "comment" : "swift-linter",
+      "type" : "actionable"
+    }
+  ]
+}

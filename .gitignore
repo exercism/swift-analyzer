@@ -1,0 +1,5 @@
+/tests/**/*/analysis.json
+/tests/**/*/tags.json
+
+.build/
+Package.resolved
