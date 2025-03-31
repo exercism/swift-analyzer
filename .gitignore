@@ -2,4 +2,3 @@
 /tests/**/*/tags.json
 
 .build/
-Package.resolved
