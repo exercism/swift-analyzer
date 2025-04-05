@@ -9,7 +9,7 @@ class Analyzer {
     }
 
     func parser(finding: Finding) {
-    var type : Something
+    var type : Kind
     switch finding.severity {
     case .error:
       type = .essential
@@ -18,18 +18,14 @@ class Analyzer {
     default:
       type = .informative
     }
-    print(finding.message)
 
     var comment: Comment
 
     if let location = finding.location {
-      print(location)
-      print(location.line)
-      print(location.column)
-      comment = Comment(comment: "swift-linter", params: ["message": finding.message.text, "line": String(location.line), "column": String(location.column)], type: type)
+      comment = Comment(comment: "swift.swift-linter.\(finding.severity)", params: ["message": finding.message.text, "line_number": String(location.line), "column_number":  String(location.column)], type: type)
     }
     else {
-      comment = Comment(comment: "swift-linter", params: ["message": finding.message.text, ], type: type)
+      comment = Comment(comment: "swift.swift-linter.\(finding.severity)", params: ["message": finding.message.text, ], type: type)
     }
     comments.append(comment)
   }

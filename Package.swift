@@ -14,8 +14,7 @@ let package = Package(
   dependencies: [
     // Dependencies declare other packages that this package depends on.
     // .package(url: /* package url */, from: "1.0.0"),
-    .package(url: "https://github.com/apple/swift-syntax.git", exact: "600.0.1"),
-    .package(url: "https://github.com/swiftlang/swift-format.git", exact: "600.0.0")
+    .package(url: "https://github.com/swiftlang/swift-format.git", exact: "601.0.0")
   ],
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -23,8 +22,6 @@ let package = Package(
     .target(
       name: "Analyzer",
       dependencies: [
-        .product(name: "SwiftSyntax", package: "swift-syntax"),
-        .product(name: "SwiftParser", package: "swift-syntax"),
         .product(name: "SwiftFormat", package: "swift-format"),
       ])
   ]

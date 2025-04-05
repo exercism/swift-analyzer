@@ -6,7 +6,7 @@ struct Analysis : Codable {
     var comments: [Comment] = []
 }
 
-enum Something : String, Codable {
+enum Kind : String, Codable {
     case informative
     case actionable
     case essential
@@ -16,5 +16,5 @@ enum Something : String, Codable {
 struct Comment : Codable {
     var comment: String
     var params: Param
-    var type : Something 
+    var type : Kind 
 }

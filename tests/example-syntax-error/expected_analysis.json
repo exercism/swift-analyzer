@@ -1,55 +1,55 @@
 {
   "comments" : [
     {
-      "comment" : "swift-linter",
+      "comment" : "swift.swift-linter.warning",
       "params" : {
-        "column" : "7",
-        "line" : "2",
+        "column_number" : "7",
+        "line_number" : "2",
         "message" : "remove ';' and move the next statement to a new line"
       },
       "type" : "actionable"
     },
     {
-      "comment" : "swift-linter",
+      "comment" : "swift.swift-linter.warning",
       "params" : {
-        "column" : "7",
-        "line" : "2",
+        "column_number" : "7",
+        "line_number" : "2",
         "message" : "remove ';' and move the next statement to a new line"
       },
       "type" : "actionable"
     },
     {
-      "comment" : "swift-linter",
+      "comment" : "swift.swift-linter.warning",
       "params" : {
-        "column" : "11",
-        "line" : "1",
+        "column_number" : "11",
+        "line_number" : "1",
         "message" : "remove 1 space"
       },
       "type" : "actionable"
     },
     {
-      "comment" : "swift-linter",
+      "comment" : "swift.swift-linter.warning",
       "params" : {
-        "column" : "24",
-        "line" : "1",
+        "column_number" : "24",
+        "line_number" : "1",
         "message" : "remove 1 space"
       },
       "type" : "actionable"
     },
     {
-      "comment" : "swift-linter",
+      "comment" : "swift.swift-linter.warning",
       "params" : {
-        "column" : "1",
-        "line" : "2",
+        "column_number" : "1",
+        "line_number" : "2",
         "message" : "unindent by 2 spaces"
       },
       "type" : "actionable"
     },
     {
-      "comment" : "swift-linter",
+      "comment" : "swift.swift-linter.warning",
       "params" : {
-        "column" : "2",
-        "line" : "3",
+        "column_number" : "2",
+        "line_number" : "3",
         "message" : "add 1 line break"
       },
       "type" : "actionable"
