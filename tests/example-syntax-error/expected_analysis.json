@@ -1,0 +1,58 @@
+{
+  "comments" : [
+    {
+      "comment" : "swift.swift-linter.warning",
+      "params" : {
+        "column_number" : "7",
+        "line_number" : "2",
+        "message" : "remove ';' and move the next statement to a new line"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift.swift-linter.warning",
+      "params" : {
+        "column_number" : "7",
+        "line_number" : "2",
+        "message" : "remove ';' and move the next statement to a new line"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift.swift-linter.warning",
+      "params" : {
+        "column_number" : "11",
+        "line_number" : "1",
+        "message" : "remove 1 space"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift.swift-linter.warning",
+      "params" : {
+        "column_number" : "24",
+        "line_number" : "1",
+        "message" : "remove 1 space"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift.swift-linter.warning",
+      "params" : {
+        "column_number" : "1",
+        "line_number" : "2",
+        "message" : "unindent by 2 spaces"
+      },
+      "type" : "actionable"
+    },
+    {
+      "comment" : "swift.swift-linter.warning",
+      "params" : {
+        "column_number" : "2",
+        "line_number" : "3",
+        "message" : "add 1 line break"
+      },
+      "type" : "actionable"
+    }
+  ]
+}

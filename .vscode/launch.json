@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-analyzer}",
+            "name": "Debug Analyzer",
+            "program": "${workspaceFolder:swift-analyzer}/.build/debug/Analyzer",
+            "preLaunchTask": "swift: Build Debug Analyzer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-analyzer}",
+            "name": "Release Analyzer",
+            "program": "${workspaceFolder:swift-analyzer}/.build/release/Analyzer",
+            "preLaunchTask": "swift: Build Release Analyzer"
+        }
+    ]
+}
